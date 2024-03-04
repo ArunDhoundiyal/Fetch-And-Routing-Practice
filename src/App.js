@@ -13,7 +13,6 @@ const App = () => (
   <div className="app-container">
     <div className="responsive-container">
       <Header />
-
       <div className="app-body">
         <Switch>
           <Route exact path="/" component={Home} />

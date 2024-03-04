@@ -8,7 +8,7 @@ const BlogItem = props => {
     <Link className="link-style" to={`/blogs/${id}`}>
       <li className="card-container">
         <div className="list-item-container">
-          <img className="imageUrl" alt="imageUrl" src={imageUrl} />
+          <img className="imageUrl" alt={title} src={imageUrl} />
           <div className="avatar-title-topic-container">
             <p className="topic">{topic}</p>
             <h1 className="title">{title}</h1>
