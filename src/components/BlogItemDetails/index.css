@@ -1,0 +1,43 @@
+.blog-card-container {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  overflow: auto;
+  margin: 25px;
+  font-family: roboto;
+}
+
+.title-heading {
+  color: #000000;
+  text-align: center;
+  font-family: roboto;
+}
+
+.author-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+.avatar-url {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.author-name {
+  color: #000000;
+  padding-left: 12px;
+}
+
+.image-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-url {
+  border-radius: 12px;
+}
+
+.paragraph {
+  color: #2f4f4f;
+}

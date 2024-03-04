@@ -1,0 +1,46 @@
+.link-style {
+  text-decoration: none;
+}
+
+.card-container {
+  border: solid #d3d3d3 1px;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 25px;
+  overflow: auto;
+}
+
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  font-family: roboto;
+  overflow: auto;
+}
+.imageUrl {
+  width: 300px;
+}
+
+.avatar-title-topic-container {
+  padding-left: 15px;
+}
+
+.topic {
+  color: #8e8e8e;
+}
+
+.title {
+  color: #000000;
+}
+
+.avatarUrl {
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+}
+.author {
+  color: #8e8e8e;
+  padding-left: 10px;
+}
+.logo-container {
+  display: flex;
+}
